@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>register page</title>
+</head>
+<body>
+    <div  class="container-fluid ">
+        <div style="height: 710px;background-color: #423A8F;" class="row">
+            <p class="text-center mt-3 display-5 text-light">Register your accounts</p>
+            <div  class="col-lg-6 w-25 mb-5 border border-3 border-secondary mx-auto shadow-lg bg-white rounded  ">
+                <form>
+                    <div class="form-group pt-3">
+                      <div class="form-group pt-3">
+                        <label>UserId</label>
+                        <input style="margin-top: 8px;" type="number" class="form-control " aria-describedby="emailHelp" id="uid" placeholder="Enter a username">
+                        
+                    </div>
+                    <div class="form-group pt-3">
+                      <label>Name</label>
+                      <input style="margin-top: 8px;" type="text" class="form-control " aria-describedby="emailHelp" id="name1" placeholder="Enter your name">
+                      
+                    </div>
+                    
+                    <div class="form-group pt-3">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input style="margin-top: 8px;" type="password" class="form-control"  id="pwd" placeholder="Password">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="exampleInputPassword1">Confirm password</label>
+                        <input style="margin-top: 8px;" type="password" class="form-control" id="cpwd" placeholder="Password">
+                      </div>
+                    
+                    <!-- <button style="margin-top: 8px;background-color: yellowgreen;color: white;" type="button" class="btn  w-100 pb-3">Sign up</button> -->
+                    <button onclick="register()" style="margin-top: 12px;color: white;" class=" w-100 pt-2 pb-2 border border-3 border-secondary bg-success">Register</button>
+                    <!-- <p class="pt-3 ps-5">Already have an account?</p> -->
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
